@@ -1,0 +1,92 @@
+:root {
+  --deepblue: #19a1ad;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+Body {
+  margin: 0%;
+  padding: 0%;
+  font-size: 16px;
+  background: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-position: -25vw -80vh, 50vw 50vh;
+  background-repeat: no-repeat;
+  background-color: var(--deepblue);
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.contenedor {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  text-align: center;
+  background-color: white;
+  width: 330px;
+  margin: 10rem auto 10rem auto;
+  border-radius: 1.5rem;
+  border-bottom: solid black 1px;
+}
+.profile_pic {
+  margin: 9rem auto 0 auto;
+  border: solid white;
+  border-width: 5px;
+  border-radius: 50px;
+}
+
+.username {
+  text-align: right;
+  margin-left: 11rem;
+  font-weight: bolder;
+}
+.userage {
+  color: gray;
+  margin-right: 11rem;
+  object-position: center;
+  font-weight: lighter;
+}
+.username_age {
+  display: flex;
+  justify-content: space-around;
+}
+.userloc {
+  margin: 0 0 2rem 0;
+  color: gray;
+  font-size: 80%;
+  font-weight: lighter;
+}
+#metrics {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 5rem 0 5rem;
+  padding: 1.5rem 0 1rem 0;
+  line-height: 3px;
+  font-weight: bolder;
+}
+#item {
+  font-size: 70%;
+  line-height: 1px;
+  margin-bottom: 1rem;
+}
+.profilebox {
+  line-height: 1rem;
+  border-bottom: 1px solid rgb(216, 213, 213);
+}
+p {
+  font-weight: bold;
+}
+#item p {
+  font-weight: lighter;
+  color: rgb(122, 122, 122);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
